@@ -22,8 +22,8 @@ document.write(ciudades.length);
 document.write(`<h2>Mostramos los elementos de la primera, tercera y última posición</h2>`);
 
 document.write('<ul>');
-document.write(`<li> ${ciudades[1]} </li>`);
-document.write(`<li> ${ciudades[3]} </li>`);
+document.write(`<li> ${ciudades[0]} </li>`);
+document.write(`<li> ${ciudades[2]} </li>`);
 document.write(`<li> ${ciudades[ciudades.length-1]} </li>`);
 document.write('</ul>');
 
@@ -40,10 +40,10 @@ document.write('</ul>');
 //Escribe por pantalla el elemento que ocupa la segunda posición
 document.write(`<h2>Mostramos el elemento de la posición 2</h2>`)
 
-document.write(ciudades[2]);
+document.write(ciudades[1]);
 
 //Sustituye el elemento que ocupa la segunda posición por la ciudad de 'Barcelona'
-ciudades[2] = `Barcelona`;
+ciudades[1] = `Barcelona`;
 
 document.write('<h2>Sustituímos el elemento de la posición 2 por Barcelona</h2>');
 document.write('<ul>');
