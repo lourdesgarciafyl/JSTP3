@@ -23,7 +23,7 @@ for (i = 0; i < sacarDuplicados.length; i++) {
 }
 console.log(total)
 
-/*
+
 document.write(`<table>
 <thead>
     <tr>
@@ -46,4 +46,3 @@ document.write(`
     </tbody>
 </table>`);
 
-*/
